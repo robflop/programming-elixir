@@ -1,2 +1,3 @@
-# elixir-stuff
-testing around
+# programming-elixir
+
+Solving exercises given in the book "Programming Elixir"
