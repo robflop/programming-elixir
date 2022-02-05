@@ -2,6 +2,8 @@
 
 Run the result in IEx. Use both techniques to compile the file.
 
+---
+
 ```bash
 $ iex
 Interactive Elixir (1.13.2) - press Ctrl+C to exit (type h() ENTER for help)

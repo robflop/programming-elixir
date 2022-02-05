@@ -8,11 +8,13 @@ Otherwise return the third argument.
 
 Do not use any language features that we haven’t yet covered in this book.
 
+---
+
 ```elixir
 fizzPartOne = fn
   (0, 0, _) -> "FizzBuzz"
-	(0, _, _) -> "Fizz"
-	(_, 0, _) -> "Buzz"
-	(_, _, trd) -> trd
+  (0, _, _) -> "Fizz"
+  (_, 0, _) -> "Buzz"
+  (_, _, trd) -> trd
 end
 ```

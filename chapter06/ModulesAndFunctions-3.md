@@ -2,6 +2,8 @@
 
 Add a quadruple function. (Maybe it could call the double function.…)
 
+---
+
 ```elixir
 defmodule Times do
   def double(n), do: n * 2

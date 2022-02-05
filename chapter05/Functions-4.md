@@ -13,8 +13,10 @@ iex> prefix.("Elixir").("Rocks")
 "Elixir Rocks"
 ```
 
+---
+
 ```elixir
 prefix = fn
-	pre -> (fn str -> pre <> " " <> str end)
+  pre -> (fn str -> pre <> " " <> str end)
 end
 ```

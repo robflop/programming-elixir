@@ -4,6 +4,8 @@ Implement and run a function sum(n) that uses recursion to calculate the sum of 
 You’ll need to write this function inside a module in a separate file.
 Then load up IEx, compile that file, and try your function.
 
+---
+
 ```elixir
 defmodule Sum do
   def of(0), do: 0
