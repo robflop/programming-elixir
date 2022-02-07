@@ -5,7 +5,7 @@ Extend the Times module with a triple function that multiplies its parameter by 
 ---
 
 ```elixir
-defmodule Times do
+defmodule Chapter6 do
   def double(n), do: n * 2
   def triple(n), do: n * 3
 end

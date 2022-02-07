@@ -7,17 +7,17 @@ Run the result in IEx. Use both techniques to compile the file.
 ```bash
 $ iex
 Interactive Elixir (1.13.2) - press Ctrl+C to exit (type h() ENTER for help)
-iex(1)> c "chapter06/Times.ex"
-[Times]
-iex(2)> Times.triple(3)
+iex(1)> c "chapter06/Chapter6.ex"
+[Chapter6]
+iex(2)> Chapter6.triple(3)
 9
 iex(3)>
 ```
 
 ```bash
-$ iex "chapter06/Times.ex"
+$ iex "chapter06/Chapter6.ex"
 Interactive Elixir (1.13.2) - press Ctrl+C to exit (type h() ENTER for help)
-iex(1)> Times.triple(3)
+iex(1)> Chapter6.triple(3)
 9
 iex(2)>
 ```

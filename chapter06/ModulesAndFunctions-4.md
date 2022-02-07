@@ -7,23 +7,23 @@ Then load up IEx, compile that file, and try your function.
 ---
 
 ```elixir
-defmodule Sum do
-  def of(0), do: 0
-  def of(1), do: 1
-  def of(n), do: n + of(n-1)
+defmodule Chapter6 do
+  def sum(0), do: 0
+  def sum(1), do: 1
+  def sum(n), do: n + sum(n-1)
 end
 ```
 
 ```bash
-$ iex "chapter06/Sum.ex"
+$ iex "chapter06/Chapter6.ex"
 Interactive Elixir (1.13.2) - press Ctrl+C to exit (type h() ENTER for help)
-iex(1)> Sum.of(0)
+iex(1)> Chapter6.sum(0)
 0
-iex(2)> Sum.of(1)
+iex(2)> Chapter6.sum(1)
 1
-iex(3)> Sum.of(2)
+iex(3)> Chapter6.sum(2)
 3
-iex(4)> Sum.of(10)
+iex(4)> Chapter6.sum(10)
 55
 iex(5)>
 ```
