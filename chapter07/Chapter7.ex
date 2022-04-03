@@ -18,4 +18,4 @@ defmodule Chapter7 do
   def span(from, to) when is_integer(from) and is_integer(to) and from > to, do: raise ArgumentError, message: "from may not be bigger than to"
   def span(from, to) when is_integer(from) and is_integer(to) and from == to, do: [from]
   def span(from, to) when is_integer(from) and is_integer(to), do: [ from | span(from + 1, to) ]
-end
+end #test
